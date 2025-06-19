@@ -1,0 +1,16 @@
+Proje dokümanında kurulum ve sunucunun çalışma şekli hakkında detaylı anlatım bulunmaktadır, lütfen önce orayı okuyun.
+
+Eğer MongoDB kurulumunu yapmadıysanız yapın ve arkaplanda servisinin çalıştığından emin olun. Varsayılan port ayarlarını kullanabilirsiniz.
+
+Veri tabanını grafiksel olarak görmek isterseniz MongoDB Compass kullanın.
+
+"API ve Veritabanı" klasöründeki requirements.txt dosyasındaki gerekli Python paketlerini şu komut ile kurun: pip install -r requirements.txt
+
+Ardından "server.py" dosyasını çalıştırın ve apk dosyasını emülatöre kurarak hiçbir ek ayar yapmadan kullanmaya başlayabilirsiniz.
+
+Eğer veritabanına bağlanamazsanız, ip adresi ve portu kontrol edin, gerekliyse kendi durumunuza göre değiştirin.
+
+Eğer emülatör değil de fiziksel cihazda çalıştıracaksanız hazır apk kullanmak yerine, projede index.tsx dosyasındaki sunucu adres ve portunu değiştirerek kendiniz derleyin.
+
+Eğer demo videosundaki veri tabanını kullanmak isterseniz, yedeği nasıl yükleyeceğiniz proje dökümanında açıklanmıştır.
+
